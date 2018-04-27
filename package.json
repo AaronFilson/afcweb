@@ -1,0 +1,24 @@
+{
+  "name": "afcweb",
+  "version": "0.0.1",
+  "description": "Website for AFC, to promote art and pottery.",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronFilson/afcweb.git"
+  },
+  "keywords": [
+    "afcweb",
+    "pottery",
+    "art"
+  ],
+  "author": "Aaron Filson",
+  "license": "Artistic-2.0",
+  "bugs": {
+    "url": "https://github.com/AaronFilson/afcweb/issues"
+  },
+  "homepage": "https://github.com/AaronFilson/afcweb#readme"
+}
