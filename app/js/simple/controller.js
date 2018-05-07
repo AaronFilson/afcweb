@@ -2,6 +2,7 @@ module.exports = function(app) {
   app.controller('SimpleController',
     ['$scope', '$http', function($scope, $http) {
 
+      $scope.loadingDone = true;
       $scope.errors = [];
       $scope.wheelposition = 0;
       var maxwheel = 15;

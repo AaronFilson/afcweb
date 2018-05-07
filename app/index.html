@@ -12,10 +12,12 @@
   <body>
     <div data-ng-app="afcwebapp">
       <div class="" data-ng-controller="SimpleController">
-        <p>
+        <p data-ng-if="!loadingDone">
           Welcome to AFC Web. Page is loading.
         </p>
 
+        <div data-ng-view>
+        </div>
       </div>
     </div>
     <p>
