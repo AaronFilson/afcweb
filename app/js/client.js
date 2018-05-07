@@ -1,10 +1,10 @@
 const angular = require('angular');
 require('angular-route');
-const AFCApp = angular.module('AFCApp', ['ngRoute']);
+const afcwebapp = angular.module('afcwebapp', ['ngRoute']);
 
-require('./simple')(AFCApp);
+require('./simple')(afcwebapp);
 
-AFCApp.config(['$routeProvider', function(routes) {
+afcwebapp.config(['$routeProvider', function(routes) {
   routes
     .when('/home', {
       controller: 'SimpleController',

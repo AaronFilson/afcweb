@@ -20,5 +20,37 @@
   "bugs": {
     "url": "https://github.com/AaronFilson/afcweb/issues"
   },
-  "homepage": "https://github.com/AaronFilson/afcweb#readme"
+  "homepage": "https://github.com/AaronFilson/afcweb#readme",
+  "dependencies": {
+    "angular": "1.5",
+    "angular-route": "1.5",
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-es2015": "latest",
+    "body-parser": "1.15.2",
+    "bootstrap-sass": "^3.3.7",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-protractor": "^3.0.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "html-loader": "latest",
+    "webpack": "latest",
+    "webpack-stream": "latest"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.0",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "mocha": "^3.0.2",
+    "protractor": "^4.0.11"
+  }
 }
