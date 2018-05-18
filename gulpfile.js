@@ -36,6 +36,11 @@ gulp.task('favicon:dev', () => {
     .pipe(gulp.dest(__dirname + '/build/'));
 });
 
+gulp.task('license:dev', () => {
+  gulp.src(__dirname + '/LICENSE')
+    .pipe(gulp.dest(__dirname + '/build/'));
+});
+
 gulp.task('webpack:dev', () => {
   gulp.src('./app/js/client.js')
     .pipe(webpack({
@@ -73,6 +78,6 @@ gulp.task('webpack:dev', () => {
 // });
 
 gulp.task('build:dev', ['webpack:dev', 'html:dev', 'css:dev',
-  'sass:dev', 'images:dev', 'favicon:dev']);
+  'sass:dev', 'images:dev', 'favicon:dev', 'license:dev']);
 // gulp.task('default', ['build:dev', 'webpack:test']);
 gulp.task('default', ['build:dev']);
