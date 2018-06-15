@@ -18,7 +18,7 @@ gulp.task('css:dev', () => {
 });
 
 gulp.task('sass:dev', () => {
-  gulp.src(__dirname + '/app/**/*.scss')
+  gulp.src(__dirname + '/app/sass/*.scss')
     .pipe(maps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(minifyCss())
@@ -77,7 +77,7 @@ gulp.task('webpack:dev', () => {
 //     .pipe(gulp.dest(__dirname + '/app/test/bndl/'));
 // });
 
-gulp.task('build:dev', ['webpack:dev', 'html:dev', 'css:dev',
-  'sass:dev', 'images:dev', 'favicon:dev', 'license:dev']);
+gulp.task('build:dev', ['webpack:dev', 'html:dev', 'sass:dev', 'css:dev',
+   'images:dev', 'favicon:dev', 'license:dev']);
 // gulp.task('default', ['build:dev', 'webpack:test']);
 gulp.task('default', ['build:dev']);
