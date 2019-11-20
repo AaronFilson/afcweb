@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/AaronFilson/afcweb#readme",
   "dependencies": {
-    "angular": "1.5",
+    "angular": "1.7",
     "angular-route": "1.5",
     "babel-core": "latest",
     "babel-loader": "latest",
